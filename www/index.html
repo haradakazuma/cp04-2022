@@ -150,7 +150,7 @@
 
 
     // 変数宣言
-    var activate = false;
+    var active = false;
     var startTime = 0;
     var period = 0;
 
@@ -179,13 +179,12 @@
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
-
-
+        active = true;
+        startTime = new Date();
     }
 
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
-        
         
     }
 
